@@ -1,0 +1,51 @@
+.Nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 2rem;
+    height: 10vh;
+}
+
+.img-logo {
+    height: 3rem;
+}
+
+.nav-mid {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-mid li {
+    list-style: none;
+}
+.nav-mid li:hover{
+   cursor: pointer;
+}
+
+.Nav-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.btn-signup{
+    border:1px solid black;
+    background-color:transparent;
+    width: 5rem;
+    box-shadow: 1px 1px gray;
+    border-radius: 50px;
+    height: 30px;
+}
+.btn-sing{
+    border: 1px solid black;
+    background-color: transparent;
+    width: 5rem;
+    border-radius: 50px;
+    height: 30px;
+}
+.Nav-container .nav-mid .active{
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+}
+.Nav-right :first-child{
+    height: 20px;
+}

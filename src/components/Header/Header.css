@@ -1,0 +1,41 @@
+.header{
+    height: 34vw;
+    margin-top:2.25rem ;
+    margin-left: 6.875rem ;
+    background: url('./public/header_img.png') no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.header-container{
+    position: absolute;
+    top: 32%;
+    left: 6%;
+}
+.header-container h2{
+    font-size: 3.125rem;
+    color: aliceblue;
+}
+.header-container p{
+    color: whitesmoke;
+}
+.header button{
+    height: 40px;
+    width: 6.75rem;
+    border-radius: 50px;
+    border: solid 1px whitesmoke;
+    color: whitesmoke;
+    box-shadow: 1px 1px white;
+    background-color: transparent;
+}
+
+.header button:hover{
+    height: 45px;
+    width: 6.95rem;
+    border-radius: 50px;    
+    border: solid 1px whitesmoke;
+    color: whitesmoke;
+    box-shadow: 1px 1px white;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+    padding: 10px ;
+}
