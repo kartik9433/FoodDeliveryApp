@@ -2,7 +2,7 @@
     height: 34vw;
     margin-top:2.25rem ;
     margin-left: 6.875rem ;
-    background: url("header_img.png") no-repeat;
+    background: url("/header_img.png") no-repeat;
     background-size: contain;
     position: relative;
 }
